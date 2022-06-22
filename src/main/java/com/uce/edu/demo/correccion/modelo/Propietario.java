@@ -1,11 +1,10 @@
-package com.uce.edu.demo.matriculacion.modelo;
+package com.uce.edu.demo.correccion.modelo;
 
 public class Propietario {
 	private String nombre;
 	private String apellido;
 	private String cedula;
-	
-	//SET y GET
+	//Set y Get
 	public String getNombre() {
 		return nombre;
 	}
@@ -28,8 +27,6 @@ public class Propietario {
 	public String toString() {
 		return "Propietario [nombre=" + nombre + ", apellido=" + apellido + ", cedula=" + cedula + "]";
 	}
-	
-	
 	
 	
 }

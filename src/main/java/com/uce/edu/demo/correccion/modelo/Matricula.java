@@ -1,20 +1,20 @@
-package com.uce.edu.demo.matriculacion.modelo;
+package com.uce.edu.demo.correccion.modelo;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class Matricula {
-	private LocalDateTime fecha;
+	private LocalDateTime fechaMatricula;
 	private BigDecimal valorMatricula;
 	private Propietario propietario;
 	private Vehiculo vehiculo;
 	
-	//Set y Get
-	public LocalDateTime getFecha() {
-		return fecha;
+	//SET y GET
+	public LocalDateTime getFechaMatricula() {
+		return fechaMatricula;
 	}
-	public void setFecha(LocalDateTime fecha) {
-		this.fecha = fecha;
+	public void setFechaMatricula(LocalDateTime fechaMatricula) {
+		this.fechaMatricula = fechaMatricula;
 	}
 	public BigDecimal getValorMatricula() {
 		return valorMatricula;
@@ -36,8 +36,8 @@ public class Matricula {
 	}
 	@Override
 	public String toString() {
-		return "Matricula [fecha=" + fecha + ", valorMatricula=" + valorMatricula + ", propietario=" + propietario
-				+ ", vehiculo=" + vehiculo + "]";
+		return "Matricula [fechaMatricula=" + fechaMatricula + ", valorMatricula=" + valorMatricula + ", propietario="
+				+ propietario + ", vehiculo=" + vehiculo + "]";
 	}
 	
 	
